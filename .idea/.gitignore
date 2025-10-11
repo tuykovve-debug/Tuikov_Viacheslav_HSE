@@ -1,10 +1,30 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Environment-dependent path to Maven home directory
-/mavenHomeManager.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Виртуальные окружения
+venv/
+.env/
+.envrc/
+.venv/
+
+# Python файлы компиляции
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Логи и кеши
+*.log
+.cache/
+*.sqlite3
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Документация и артефакты сборки
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
