@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/CorporateConsentCreationResult",
+  "definitions": {
+    "SuccessStatus": {
+      "type": "object",
+      "description": "Статус выполнения успешного запроса",
+      "required": [
+        "code"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "* `success` - Успешное выполнение\n",
+          "enum": [
+            "success"
+          ],
+          "example": "success"
+        },
+        "message": {
+          "type": "string",
+          "pattern": "^(.*)$",
+          "maxLength": 255,
+          "description": "Текст сообщения",
+          "example": "Выполнено без ошибок"
+        }
+      },
+      "additionalProperties": false
+    },
+    "Consent": {
+      "type": "object",
+      "description": "Укороченное согласие ЮЛ",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Идентификатор согласия в УСК",
+          "example": "7830e95d-691b-4457-8a0d-c9b427911f76",
+          "maxLength": 255
+        },
+        "sourceConsentId": {
+          "type": "string",
+          "pattern": "^(.+)$",
+          "maxLength": 36,
+          "description": "Код согласия из источника",
+          "example": "Consent1234"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CorporateConsentCreationResult": {
+      "type": "object",
+      "description": "Ответ на запрос по созданию согласий ЮЛ",
+      "required": [
+        "payload",
+        "requestId",
+        "status"
+      ],
+      "properties": {
+        "requestId": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Уникальный идентификатор запроса",
+          "example": "a21fd69e-c1d1-22bf-2b8b-b300403d9651",
+          "maxLength": 255
+        },
+        "status": {
+          "$ref": "#/definitions/SuccessStatus"
+        },
+        "payload": {
+          "type": "array",
+          "description": "Укороченные детали согласия",
+          "maxItems": 100,
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/definitions/Consent"
+          },
+          "additionalItems": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
