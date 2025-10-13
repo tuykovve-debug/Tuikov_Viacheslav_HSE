@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a66ed3-3e43-41bc-9cb0-d748b8ec4de7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Homeworks/hw-lesson2/homework-lesson2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Homeworks/homework_second_lesson/Task02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homeworks/hw-lesson2/homework-lesson2.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homeworks/homework_second_lesson/homework-lesson2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homeworks/hw11.10.25/Homework_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homeworks/homework_first_lesson/Task01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homeworks/hw11.10.25/purchase_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homeworks/homework_first_lesson/purchase_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -37,10 +45,11 @@
     "Python.Homework_1.executor": "Run",
     "Python.Study.executor": "Run",
     "Python.homework-lesson2.executor": "Run",
+    "Python.homework2-lesson2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Homework2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
