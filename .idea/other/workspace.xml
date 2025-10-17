@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="183220f0-a934-4e98-a75b-40223faaebbe" name="Changes" comment="">
+    <list default="true" id="29a66ed3-3e43-41bc-9cb0-d748b8ec4de7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other/modules.xml" afterDir="false" />
@@ -15,14 +18,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="34CWvC5uPw0YAn87Xk49MD3JwK5" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="33sq7FWFnl4UmxhUh8Pale4uXbz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,16 +44,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Homework_1.executor": "Run",
+    "Python.Study.executor": "Run",
+    "Python.homework-lesson2.executor": "Run",
+    "Python.homework2-lesson2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "changing__project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tujko\IdeaProjects\Tuikov_Viacheslav_HSE\.idea\other" />
+      <recent name="C:\Users\tujko\IdeaProjects\untitled1\.idea\Homeworks\hw11.10.25" />
+      <recent name="C:\Users\tujko\IdeaProjects\untitled1\.idea" />
+      <recent name="C:\Users\tujko\IdeaProjects\untitled1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -48,18 +78,28 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\tujko\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="183220f0-a934-4e98-a75b-40223faaebbe" name="Changes" comment="" />
-      <created>1760718263903</created>
+      <changelist id="29a66ed3-3e43-41bc-9cb0-d748b8ec4de7" name="Changes" comment="" />
+      <created>1760115968658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1760718263903</updated>
-      <workItem from="1760718265286" duration="88000" />
+      <updated>1760115968658</updated>
+      <workItem from="1760115969748" duration="1920000" />
+      <workItem from="1760167777865" duration="779000" />
+      <workItem from="1760168573552" duration="5936000" />
+      <workItem from="1760718107631" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
